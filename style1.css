@@ -5,7 +5,7 @@
     the images as variables */
 
 :root {
-  --header-image: url("pink-tulips-banner.jpg");
+  --header-image: url("media/pink-tulips-banner.jpg");
   --body-bg-image: url("tile-backgrounds/move_heart.gif");
 
   /* colors */
