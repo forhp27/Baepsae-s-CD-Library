@@ -78,6 +78,7 @@ body {
       and change the media query according to the comment! */
   margin: 0 auto;
   /* this centers the entire page */
+  text-align: center;
 }
 
 /* the area below is for all links on your page
@@ -189,15 +190,10 @@ h1,
 h2,
 h3 {
   color: #ed64f5;
-  text-align: center;
 }
 
 h1 {
   font-size: 25px;
-}
-
-p {
-  text-align: center;
 }
 
 strong {
