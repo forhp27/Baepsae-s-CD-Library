@@ -103,6 +103,41 @@ body {
   background-size: 100%;
 }
 
+/* navigation section!! */
+#navbar {
+  height: 40px;
+  background-color: #fa9fff;
+  /* navbar color */
+  width: 100%;
+}
+
+#navbar ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+#navbar li {
+  padding-top: 10px;
+}
+
+/* navigation links*/
+#navbar li a {
+  color: #ed64f5;
+  /* navbar text color */
+  font-weight: 800;
+  text-decoration: none;
+  /* this removes the underline */
+}
+
+/* navigation link when a link is hovered over */
+#navbar li a:hover {
+  color: #a49cba;
+  text-decoration: underline;
+}
+
 #flex {
   display: flex;
 }
