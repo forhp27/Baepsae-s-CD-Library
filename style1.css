@@ -1,0 +1,338 @@
+/* THIS IS THE STYLE OF THE WEBSITE. FEEL FREE TO COPY AND CHANGE WHAT YOU WANT.*/
+
+/* ===============================
+	General Styles for All Devices
+   ===============================
+*/
+
+    body {
+      margin: 0;
+      line-height: 1.5;
+      background-color: #000000;
+      background-image: url(images/black_headspace.png);
+      text-align: center;
+    }
+    
+    /* Add a black background color to the top navigation */
+    .topnav {
+      background-color: #000000;
+      overflow: hidden;
+    }
+
+
+/* ===============================
+	Mobile Styles up to 600 pixels
+   ===============================
+*/
+
+@media only screen and (max-width: 600px) {
+    
+   /* Styles the navigation bar */
+    .topnav a {
+      color: #ffffff;
+      text-align: center;
+      padding: 10px;
+      text-decoration: none;
+      font-size: 30px;
+      
+    }
+    
+    
+    /* Add a color to the active/current link */
+    .topnav .active {
+      background-color: #000000;
+      color: #ffffff;
+    }
+    
+    /* test */
+    .center {
+      margin: auto;
+      text-align: center;
+      vertical-align: middle;
+    }
+    
+    /* Header 1 style */
+    /* used in the CYOFP page */
+    h1 {
+      font-size: 250%;
+      font-family: Comic Sans MS;
+      line-height: 125%;
+      margin: auto;
+      padding: 20px;
+      padding-top: 20px;
+      background-color: #000000;
+      outline: 1px solid #ffffff;
+      width: 85%;
+      border-radius: 25px;
+      text-align: center;
+    }
+    
+    /* Header 2 style */
+    /* used in the CYOFP page */
+    h2 {
+      font-size: 150%;
+      font-family: Comic Sans MS;
+      line-height: 125%;
+      margin: auto;
+      padding: 15px;
+      padding-top: 15px;
+      background-color: #000000;
+      outline: 1px solid #ffffff;
+      width: 90%;
+      border-radius: 10px;
+      text-align: center;
+    }
+    
+    /* Header 3 style */
+    /* used in the CYOFP page */
+    h3 {
+      font-size: 100%;
+      font-family: Comic Sans MS;
+      line-height: 125%;
+      padding: 10px;
+      padding-top: 10px;
+      margin: auto;
+      margin-top: 1px;
+      background-color: #000000;
+      outline: 1px solid #ffffff;
+      width: 90%;
+      border-radius: 10px;
+      text-align: center;
+    }
+    
+    /* Paragraph 0 style */
+    /* used everywhere on the site */
+    p {
+      font-size: 125%;
+      font-family: Comic Sans MS;
+      line-height: 125%;
+      padding: 5px;
+      padding-top: 5px;
+      margin: auto;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      color: #ffffff;
+      background-color: #000000;
+      outline: 1px solid #ffffff;
+      width: 90%;
+      border-radius: 15px;
+    }
+    
+    /* Paragraph 1 style */
+    /* used everywhere on the site */
+    p1 {
+      display: inline-block;
+      text-align: left;
+      font-size: 85%;
+      font-family: Comic Sans MS;
+      line-height: 125%;
+      padding: 10px;
+      padding-top: 10px;
+      background-color: #000000;
+      outline: 1px solid #ffffff;
+      width: 75%;
+      border-radius: 15px;
+    }
+    
+    /* styling for hrefs/aka links! */
+    p a {
+      color: blue;
+      text-decoration: underline;
+    }
+    /* styling for hrefs/aka links! */
+    p a:hover {
+      color: purple;
+      text-decoration: underline;
+    }
+    
+    
+    /* horizontal line used in the CYOFP page */
+    hr {
+      height: 1px;
+      background-color: #ffffff;
+      width: 70%;
+    }
+    
+    img {
+     height: auto;
+     width: 90%;
+     max-width: 400px;
+     border: 2px solid #ffffff;
+    }
+    
+    
+    /* footer at the bottom of every page */
+    footer {
+      text-align: center;
+      background-color: #000000;
+      color: #ffffff;
+      outline: 1px solid #ffffff;
+      width: 40%;
+      height: auto;
+      padding: 10px;
+      margin: auto;
+    }
+
+    
+}
+
+
+/* ============================================
+	Tablet and Desktop Devices: 601px or more 
+   ============================================
+*/
+
+@media only screen and (min-width: 601px) {
+    
+    /* Styles the navigation bar */
+    .topnav a {
+      float: none;
+      color: #ffffff;
+      text-align: center;
+      padding: 30px 30px;
+      text-decoration: none;
+      font-size: 50px;
+      margin: auto;
+    }
+    
+    /* Change the color of buttons when you hover over them */
+    .topnav a:hover {
+      background-color: #2e2e2e; /*lighter gray*/
+      color: #ffffff;
+    }
+    
+    /* Add a color to the active/current link */
+    .topnav .active {
+      background-color: #000000;
+      color: #ffffff;
+    }
+    
+    /* test */
+    .center {
+      margin: auto;
+      text-align: center;
+      vertical-align: middle;
+    }
+    
+    /* Header 1 style */
+    /* used in the CYOFP page */
+    h1 {
+      font-size: 250%;
+      font-family: Comic Sans MS;
+      line-height: 125%;
+      margin: auto;
+      padding: 20px;
+      padding-top: 20px;
+      background-color: #000000;
+      outline: 1px solid #ffffff;
+      width: 50%;
+      border-radius: 25px;
+      text-align: center;
+    }
+    
+    /* Header 2 style */
+    /* used in the CYOFP page */
+    h2 {
+      font-size: 150%;
+      font-family: Comic Sans MS;
+      line-height: 125%;
+      margin: auto;
+      padding: 15px;
+      padding-top: 15px;
+      background-color: #000000;
+      outline: 1px solid #ffffff;
+      width: 30%;
+      border-radius: 10px;
+      text-align: center;
+    }
+    
+    /* Header 3 style */
+    /* used in the CYOFP page */
+    h3 {
+      font-size: 100%;
+      font-family: Comic Sans MS;
+      line-height: 125%;
+      padding: 10px;
+      padding-top: 10px;
+      margin: auto;
+      margin-top: 1px;
+      background-color: #000000;
+      outline: 1px solid #ffffff;
+      width: 30%;
+      border-radius: 10px;
+      text-align: center;
+    }
+    
+    /* Paragraph 0 style */
+    /* used everywhere on the site */
+    p {
+      font-size: 125%;
+      font-family: Comic Sans MS;
+      line-height: 125%;
+      padding: 5px;
+      padding-top: 5px;
+      margin: auto;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      color: #ffffff;
+      background-color: #000000;
+      outline: 1px solid #ffffff;
+      width: 60%;
+      border-radius: 15px;
+    }
+    
+    /* Paragraph 1 style */
+    /* used everywhere on the site */
+    p1 {
+      display: inline-block;
+      text-align: left;
+      font-size: 85%;
+      font-family: Comic Sans MS;
+      line-height: 125%;
+      padding: 10px;
+      padding-top: 10px;
+      background-color: #000000;
+      outline: 1px solid #ffffff;
+      width: 75%;
+      border-radius: 15px;
+    }
+    
+    /* styling for hrefs/aka links! */
+    p a {
+      color: blue;
+      text-decoration: underline;
+    }
+    /* styling for hrefs/aka links! */
+    p a:hover {
+      color: purple;
+      text-decoration: underline;
+    }
+    
+    
+    /* horizontal line used in the CYOFP page */
+    hr {
+      height: 1px;
+      background-color: #ffffff;
+      width: 70%;
+    }
+    
+    img {
+     height: auto;
+     width: 50%;
+     border: 2px solid #ffffff;
+    }
+    
+    /* footer at the bottom of every page */
+    footer {
+      text-align: center;
+      background-color: #000000;
+      color: #ffffff;
+      outline: 1px solid #ffffff;
+      width: 15%;
+      height: auto;
+      padding: 10px;
+      margin: auto;
+    }
+    
+    
+}
