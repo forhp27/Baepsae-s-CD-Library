@@ -5,8 +5,8 @@
     the images as variables */
 
 :root {
-  --header-image: url("media/pink-tulips-banner.jpg");
-  --body-bg-image: url("tile-backgrounds/move_heart.gif");
+  --header-image: url("media/kuromi-banner.jpg");
+  --body-bg-image: url("tile-backgrounds/azulestrellas.gif");
 
   /* colors */
   --content: #fbb1f4;
