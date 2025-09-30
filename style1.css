@@ -9,7 +9,7 @@
   --body-bg-image: url("tile-backgrounds/heartstring.gif");
 
   /* colors */
-  --content: #fbb1f4;
+  --content: #ffffff;
 }
 
 /* if you have the URL of a font, you can set it below */
@@ -53,7 +53,7 @@ body {
   background-color: #08031a;
   /* you can delete the line below if you'd prefer to not use an image */
   background-size: 65px;
-  color: #fceaff;
+  color: #ffffff;
   background-image: var(--body-bg-image);
 }
 
@@ -84,7 +84,7 @@ body {
 /* the area below is for all links on your page
     EXCEPT for the navigation */
 #container a {
-  color: #ed64f5;
+  color: #ffffff;
   font-weight: bold;
   /* if you want to remove the underline
       you can add a line below here that says:
@@ -93,7 +93,7 @@ body {
 
 #header {
   width: 100%;
-  background-color: #fa9fff;
+  background-color: #ededed;
   /* header color here! */
   height: 150px;
   /* this is only for a background image! */
@@ -106,7 +106,7 @@ body {
 /* navigation section!! */
 #navbar {
   height: 40px;
-  background-color: #fa9fff;
+  background-color: #ffffff;
   /* navbar color */
   width: 100%;
 }
@@ -125,7 +125,7 @@ body {
 
 /* navigation links*/
 #navbar li a {
-  color: #ed64f5;
+  color: #ffffff;
   /* navbar text color */
   font-weight: 800;
   text-decoration: none;
@@ -189,7 +189,7 @@ footer {
 h1,
 h2,
 h3 {
-  color: #ed64f5;
+  color: #ffffff;
 }
 
 h1 {
@@ -205,7 +205,7 @@ strong {
 .box {
   background-color: #fa9fff;
   border: 3px solid #34184a;
-  padding: 10px;
+  padding: 10px;d
 }
 
 /* CSS for extras */
