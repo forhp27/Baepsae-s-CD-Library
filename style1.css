@@ -47,7 +47,10 @@ body {
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
-  border-style: white;
+  border-right-style: white;
+  border-left-style: white;
+  border-bottom-style: white;
+  border-top-style: white;
 }
 
 #container a {
