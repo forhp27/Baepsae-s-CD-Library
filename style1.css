@@ -2,7 +2,7 @@
 
 :root {
   --header-image: url("media/kuromi-banner.jpg");
-  --body-bg-image: url("tile-backgrounds/bubbles2.png");
+  --body-bg-image: url("tile-backgrounds/purplerosesblkbg.gif");
   --content: #ffffff;
 }
 
@@ -45,7 +45,7 @@ body {
 
 #container {
   max-width: 900px;
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
   border-right-style: white;
   border-left-style: white;
@@ -64,7 +64,6 @@ body {
   background-color: #ededed;
   background-image: var(--header-image);
   background-size: 100%;
-  margin-top: 15%;
 }
 
 /* navbar section */
