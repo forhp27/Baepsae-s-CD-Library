@@ -2,8 +2,8 @@
 
 :root {
   --header-image: url("media/kuromi-banner.jpg");
-  --body-bg-image: url("tile-backgrounds/purplerosesblkbg.gif");
-  --content: #ffffff;
+  --body-bg-image: url("tile-backgrounds/033C.jpg");
+  --content: #000000;
 }
 
 @font-face {
@@ -32,7 +32,7 @@
 
 body {
   font-family: "Nunito", sans-serif;
-  margin: 0;
+  margin: auto;
   background-color: #08031a;
   background-size: 65px;
   color: #ffffff;
@@ -61,6 +61,7 @@ body {
 #header {
   width: 100%;
   height: 150px;
+  margin: auto;
   background-color: #ededed;
   background-image: var(--header-image);
   background-size: 100%;
@@ -113,8 +114,7 @@ aside {
   /* this makes the sidebar text slightly smaller */
 }
 
-/* this is the color of the main content area,
-    between the sidebars! */
+/* this is the color of the main content area between the sidebars! */
 main {
   background-color: #43256e;
   flex: 1;
