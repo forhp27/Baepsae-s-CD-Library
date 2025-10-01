@@ -73,12 +73,10 @@ body {
     of the container */
 #container {
   max-width: 900px;
-  /* this is the width of your layout! */
-  /* if you change the above value, scroll to the bottom
-      and change the media query according to the comment! */
   margin: 0 auto;
-  /* this centers the entire page */
   text-align: center;
+  border-right-style: solid;
+  border-left-style: solid;
 }
 
 /* the area below is for all links on your page
@@ -178,12 +176,12 @@ main {
 
 footer {
   background-color: #13092d;
-  /* background color for footer */
   width: 100%;
   height: 40px;
   padding: 10px;
   text-align: center;
-  /* this centers the footer text */
+  margin-top: 0px;
+  border: #fff;
 }
 
 h1,
