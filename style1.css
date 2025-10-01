@@ -3,8 +3,6 @@
 :root {
   --header-image: url("media/kuromi-banner.jpg");
   --body-bg-image: url("tile-backgrounds/heartstring.gif");
-
-  /* colors */
   --content: #ffffff;
 }
 
@@ -45,33 +43,16 @@ body {
   box-sizing: border-box;
 }
 
-/* below this line is CSS for the layout */
-
-/* this is a CSS comment
-    to uncomment a line of CSS, remove the * and the /
-    before and after the text */
-
-/* the "container" is what wraps your entire website */
-/* if you want something (like the header) to be Wider than
-    the other elements, you will need to move that div outside
-    of the container */
 #container {
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
-  border-right-style: solid;
-  border-left-style: solid;
-  border-bottom-style: solid;
+  border: white;
 }
 
-/* the area below is for all links on your page
-    EXCEPT for the navigation */
 #container a {
   color: #ffffff;
   font-weight: bold;
-  /* if you want to remove the underline
-      you can add a line below here that says:
-      text-decoration:none; */
 }
 
 #header {
@@ -83,11 +64,10 @@ body {
   margin-top: 15%;
 }
 
-/* navigation section!! */
+/* navbar section */
 #navbar {
   height: 40px;
   background-color: #ffffff;
-  /* navbar color */
   width: 100%;
 }
 
@@ -106,10 +86,8 @@ body {
 /* navigation links*/
 #navbar li a {
   color: #ffffff;
-  /* navbar text color */
   font-weight: 800;
   text-decoration: none;
-  /* this removes the underline */
 }
 
 /* navigation link when a link is hovered over */
