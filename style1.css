@@ -98,7 +98,7 @@ body {
 }
 
 #flex {
-  display: flex;
+  display: inline;
 }
 
 /* this colors BOTH sidebars
