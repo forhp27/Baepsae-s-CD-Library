@@ -1,7 +1,7 @@
 /* user styles */
 
 :root {
-  --header-image: url("media/kuromi-banner.jpg");
+  /*--header-image: url("media/kuromi-banner.jpg");*/
   --body-bg-image: url("tile-backgrounds/033C.jpg");
   --content: #000000;
 }
